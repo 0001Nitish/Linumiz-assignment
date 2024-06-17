@@ -42,4 +42,3 @@ Use popd to change back to the previous directory by popping the top directory f
 Attempt to pop from an empty stack to handle the edge case.
 
 This implementation uses a linked list to manage a stack of directories, allowing for the pushd and popd commands to change and navigate through directories. The pushd function saves the current directory and changes to a new one, while popd restores the last saved directory. This example demonstrates the basic functionality and can be extended with additional features and error handling as needed.
-
